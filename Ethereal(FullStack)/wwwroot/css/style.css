@@ -1,0 +1,406 @@
+header .navbar {
+  background-color: #443344;
+}
+
+header .navbar .container .navbar-brand {
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 26px;
+  color: #fff;
+}
+
+header .navbar .container .collapse .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.home .banner {
+  background: url(../assets/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: auto;
+}
+
+.home .banner .bg-overlay {
+  text-align: center;
+  padding: 280px 0 160px;
+  background-color: rgba(15, 5, 20, 0.84);
+}
+
+.home .banner .bg-overlay .container .row .col-lg-12 {
+  color: #fff;
+}
+
+.home .banner .bg-overlay .container .row .col-lg-12 h2 {
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 50px;
+}
+
+.home .banner .bg-overlay .container .row .col-lg-12 h2 span {
+  color: red;
+}
+
+.home .banner .bg-overlay .container .row .col-lg-12 p {
+  font-size: 15px;
+}
+
+.home .banner .bg-overlay .container .row .col-lg-12 .banner-button {
+  text-decoration: none;
+  color: #ccc;
+  border: 1px solid rgba(204, 204, 204, 0.18);
+  border-radius: 20px;
+  padding: 10px 26px;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+.home .banner .bg-overlay .container .row .col-lg-12 .banner-button:hover {
+  background: #ccc;
+  color: #000;
+}
+
+.features {
+  padding: 100px 0;
+}
+
+.features .container .row .col-lg-4 .feature-box .icon-box {
+  text-align: center;
+  position: relative;
+  width: 130px;
+  height: 70px;
+  margin: 0;
+  display: inline-block;
+  border: rgba(204, 204, 204, 0.18) 1px solid;
+  border-radius: 50%;
+  padding: 0px !important;
+}
+
+.features .container .row .col-lg-4 .feature-box .icon-box i {
+  line-height: 70px;
+  font-size: 25px;
+  color: #eb233c;
+}
+
+.features .container .row .col-lg-4 .feature-box .feature-text h4 {
+  font-family: "Oleo Script Swash Caps", cursive;
+  color: #443344;
+}
+
+.features .container .row .col-lg-4 .feature-box .feature-text p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+}
+
+.portfolio {
+  background-color: rgba(235, 213, 235, 0.26);
+  padding: 30px 0 50px 0;
+}
+
+.portfolio .container .row .col-lg-10 {
+  margin-left: 8.33333333%;
+}
+
+.portfolio .container .row .col-lg-10 h3 {
+  margin-top: 0;
+  margin-bottom: 50px;
+  border-bottom: 2px solid #eb233c;
+  display: inline-block;
+  line-height: 35px;
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 24px;
+}
+
+.portfolio .container .row .col-lg-10 .row {
+  margin-bottom: 20px;
+}
+
+.portfolio .container .row .col-lg-10 .row .col-md-6 .portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio .container .row .col-lg-10 .row .col-md-6 .portfolio-item a img {
+  max-width: 100%;
+}
+
+.portfolio .container .row .col-lg-10 .view-btn {
+  text-decoration: none;
+  border: 1px solid red;
+  border-radius: 20px;
+  background: red;
+  color: #fff;
+  padding: 12px 35px;
+  font-size: 15px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.col-md-12 {
+  padding-top: 30px;
+}
+
+.col-md-12 h3 {
+  margin-top: 0;
+  margin-bottom: 50px;
+  border-bottom: 2px solid #eb233c;
+  display: inline-block;
+  line-height: 35px;
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 20px;
+}
+
+.slider {
+  padding-bottom: 20px;
+}
+
+.slider .container .owl-carousel .content-area {
+  background: rgba(235, 213, 235, 0.26);
+  display: block;
+  padding: 10px;
+  width: 100%;
+  height: 200px;
+}
+
+.slider .container .owl-carousel .content-area .text-content p {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0 0 10px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.slider .container .owl-carousel .content-area .team-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid rgba(68, 51, 68, 0.46);
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.slider .container .owl-carousel .content-area .team-info h5 {
+  margin-top: 35px;
+  display: inline-block;
+  font-size: 15px;
+  padding-left: 10px;
+  font-weight: 700;
+  font-family: "Work Sans", sans-serif;
+}
+
+.subscribe {
+  background: url(../assets/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+  color: white;
+}
+
+.subscribe .subscribe-content {
+  background-color: rgba(15, 5, 20, 0.84);
+}
+
+.subscribe .subscribe-content .container {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.subscribe .subscribe-content .container .row .col-md-8 .subscribe-text {
+  text-align: left;
+}
+
+.subscribe .subscribe-content .container .row .col-md-8 .subscribe-text h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #eb233c;
+  display: inline-block;
+  line-height: 35px;
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 20px;
+}
+
+.subscribe .subscribe-content .container .row .col-md-8 .subscribe-text p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+}
+
+.subscribe .subscribe-content .container .row .col-md-4 .subscribe-button {
+  text-decoration: none;
+  background-color: #eb233c;
+  color: #fff;
+  padding: 12px 35px;
+  border-radius: 25px;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.about .container .row .col-md-6 .about-text p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.about .container .row .col-md-6 .col-md-6 {
+  padding: 0px 50px;
+}
+
+.about .container .row .col-md-6 .col-md-6 h5 {
+  font-size: 14px;
+  margin: 0 !important;
+  font-family: "Work Sans", sans-serif;
+}
+
+.about .container .row .col-md-6 .col-md-6 span {
+  color: red;
+  font-size: 50px;
+}
+
+.contact {
+  background-color: rgba(204, 204, 204, 0.15);
+  padding: 40px 0;
+}
+
+.contact .container .row .col-md-7 .contact-form form .col-md-6 .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #242424;
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: border-color 0.15s ease-in-out 0s,
+    -webkit-box-shadow 0.15s ease-in-out 0s;
+  transition: border-color 0.15s ease-in-out 0s,
+    -webkit-box-shadow 0.15s ease-in-out 0s;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s,
+    -webkit-box-shadow 0.15s ease-in-out 0s;
+  border-bottom: 2px solid #eb233c;
+  resize: none;
+  margin-top: 25px;
+}
+
+.contact .container .row .col-md-7 .contact-form form .col-md-12 .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #242424;
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: border-color 0.15s ease-in-out 0s,
+    -webkit-box-shadow 0.15s ease-in-out 0s;
+  transition: border-color 0.15s ease-in-out 0s,
+    -webkit-box-shadow 0.15s ease-in-out 0s;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s,
+    -webkit-box-shadow 0.15s ease-in-out 0s;
+  border-bottom: 2px solid #eb233c;
+  resize: none;
+  margin-top: 25px;
+  height: auto;
+}
+
+.contact
+  .container
+  .row
+  .col-md-7
+  .contact-form
+  form
+  .col-md-12
+  .contact-button {
+  border: none;
+  padding: 12px 35px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 15px;
+  background-color: #eb233c;
+  margin-top: 10px;
+}
+
+.contact .container .row .col-md-4 .address {
+  color: #242424;
+}
+
+.contact .container .row .col-md-4 .address h4 {
+  font-family: "Oleo Script Swash Caps", cursive;
+  color: #eb233c;
+  font-size: 22px;
+}
+
+.contact .container .row .col-md-4 .address p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contact .container .row .col-md-4 .address .email i {
+  color: #eb233c;
+  padding-right: 10px;
+  font-size: 14px;
+}
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+  width: 100%;
+  float: left;
+}
+
+footer .container .row .col-md-4 .copyright {
+  line-height: 40px;
+  text-transform: none;
+}
+
+footer .container .row .col-md-4 .list-inline li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+footer .container .row .col-md-4 .list-inline li .icon {
+  background-color: #222;
+  border-radius: 100%;
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+  outline: 0 none;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 40px;
+}
+
+footer .container .row .col-md-4 .quicklinks li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+footer .container .row .col-md-4 .quicklinks li a {
+  color: #eb233c;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */
